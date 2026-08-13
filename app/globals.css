@@ -313,39 +313,27 @@ h3 {
   isolation: isolate;
 }
 
-.visual-grid {
+.hero-portrait {
   position: absolute;
   inset: 0;
-  z-index: -2;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.08) 1px, transparent 1px);
-  background-size: 54px 54px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 57% center;
 }
 
 .hero-visual::after {
   content: "";
   position: absolute;
-  width: 420px;
-  height: 420px;
-  top: 75px;
-  right: -145px;
-  z-index: -1;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 50%;
-  box-shadow: 0 0 0 55px rgba(178, 138, 46, 0.05),
-    0 0 0 110px rgba(178, 138, 46, 0.035);
-}
-
-.monogram {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -55%);
-  color: var(--white);
-  font-family: var(--serif);
-  font-size: clamp(9rem, 19vw, 14rem);
-  letter-spacing: -0.1em;
-  opacity: 0.96;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(
+    180deg,
+    transparent 48%,
+    rgba(7, 13, 24, 0.08) 66%,
+    rgba(7, 13, 24, 0.76) 100%
+  );
+  pointer-events: none;
 }
 
 .visual-caption {
@@ -353,10 +341,12 @@ h3 {
   right: 0;
   bottom: 0;
   left: 0;
+  z-index: 2;
   display: grid;
   gap: 0.35rem;
   padding: 1.5rem;
-  background: rgba(7, 13, 24, 0.82);
+  background: rgba(7, 13, 24, 0.72);
+  backdrop-filter: blur(8px);
   border-top: 1px solid var(--dark-line);
 }
 
@@ -1250,8 +1240,8 @@ h3 {
     min-height: 420px;
   }
 
-  .monogram {
-    font-size: 9rem;
+  .hero-portrait {
+    object-position: 58% center;
   }
 
   .intro-grid {

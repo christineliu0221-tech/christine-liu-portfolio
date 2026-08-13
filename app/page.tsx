@@ -104,17 +104,16 @@ export default function Home() {
           </dl>
         </div>
 
-        <div className="hero-visual" aria-label="Christine Liu professional profile summary">
-          <div className="visual-grid" aria-hidden="true" />
-          <div className="monogram" aria-hidden="true">
-            CL
-          </div>
+        <div className="hero-visual">
+          <img
+            className="hero-portrait"
+            src="/christine-liu-headshot.jpg"
+            alt="Christine Liu wearing a navy blazer in a professional portrait"
+          />
           <div className="visual-caption">
             <span>Targeting Track</span>
             <strong>From audit execution to data-enabled insight</strong>
           </div>
-          <div className="visual-note note-top">Judgment</div>
-          <div className="visual-note note-bottom">Analytics</div>
         </div>
       </section>
 
