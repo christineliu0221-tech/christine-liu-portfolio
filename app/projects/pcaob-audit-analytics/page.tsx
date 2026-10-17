@@ -19,6 +19,7 @@ export default function PCAOBAuditAnalyticsPage() {
         { label: "Focus areas", value: "Inventory · COGS · Revenue" },
       ]}
       context="The audit of a global electronics distributor involved large and interconnected financial-statement areas. Analytical outputs could surface movements at scale, but those movements still needed to be interpreted in relation to the business, account relationships, and audit risk."
+      contributionHeading="Translating dashboard signals into audit questions"
       contribution="I collaborated with a data analytics support team and reviewed Power BI dashboard outputs across inventory, cost of goods sold, and revenue. My contribution was to connect the visual patterns with audit context and identify movements that warranted attention or explanation."
       approach={[
         "Reviewed the dashboard structure and the relationship between the three financial-statement areas.",
@@ -27,7 +28,7 @@ export default function PCAOBAuditAnalyticsPage() {
         "Connected analytical observations with the broader audit approach and documentation needs.",
       ]}
       outcome="Used data-enabled review to identify trends and unusual movements that could inform audit focus and follow-up, while keeping interpretation grounded in financial-statement relationships."
-      relevance="The work reflects the central challenge in audit analytics: technology can expand coverage, but professionals must still decide which signals matter, why they matter, and what evidence is needed next. Christine brings the financial context required to make analytics actionable."
+      relevance="The work reflects the central challenge in audit analytics: technology can expand coverage, but professionals must still decide which signals matter, why they matter, and what evidence is needed next. I bring the financial context required to make analytics actionable."
       nextProject={{
         label: "AI-Assisted Pricing Analytics",
         href: "/projects/pricing-analytics",

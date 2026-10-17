@@ -6,11 +6,13 @@ type ProjectPageProps = {
   summary: string;
   metrics: Array<{ label: string; value: string }>;
   context: string;
+  contributionHeading?: string;
   contribution: string;
   approach: string[];
   outcome: string;
   relevance: string;
   nextProject: { label: string; href: string };
+  nextLabel?: string;
 };
 
 export function ProjectPage({
@@ -19,11 +21,13 @@ export function ProjectPage({
   summary,
   metrics,
   context,
+  contributionHeading = "Clear ownership within a larger engagement",
   contribution,
   approach,
   outcome,
   relevance,
   nextProject,
+  nextLabel = "Next case study",
 }: ProjectPageProps) {
   return (
     <main id="main-content" className="case-page">
@@ -63,7 +67,7 @@ export function ProjectPage({
 
           <section id="contribution">
             <p className="section-kicker">02 · MY CONTRIBUTION</p>
-            <h2>Clear ownership within a larger engagement</h2>
+            <h2>{contributionHeading}</h2>
             <p>{contribution}</p>
           </section>
 
@@ -102,7 +106,7 @@ export function ProjectPage({
           </div>
 
           <Link className="next-project" href={nextProject.href}>
-            <span>Next case study</span>
+            <span>{nextLabel}</span>
             <strong>{nextProject.label}</strong>
             <span aria-hidden="true">→</span>
           </Link>

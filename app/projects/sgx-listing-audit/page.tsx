@@ -19,6 +19,7 @@ export default function SGXListingAuditPage() {
         { label: "Core judgment", value: "Estimate-to-actual testing" },
       ]}
       context="A content-creator cost stream involved management estimates, individual agreements, accounting records, and subsequent actual amounts. The engagement needed a defensible view of whether recorded accruals were reasonable in a high-visibility listing environment."
+      contributionHeading="Owning a workstream under senior review"
       contribution="I served as the primary engagement staff for the workstream, coordinated two peer-level staff, and worked directly with the Senior Manager on the audit approach. My role covered both hands-on testing and the structure needed to keep the work consistent and reviewable."
       approach={[
         "Clarified the population, relevant agreements, accounting records, and estimate mechanics before testing.",

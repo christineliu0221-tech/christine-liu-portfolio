@@ -36,7 +36,7 @@ const insights = [
     title: "AI adoption needs professional judgment",
     text: "PCAOB outreach found that GenAI use in audits was still concentrated in administrative and research activities, even as firms continued investing. The opportunity is real, but so are supervision, privacy, security, and reliability requirements.",
     implication:
-      "Christine's advantage is the combination of technical curiosity and the audit judgment needed to evaluate outputs rather than accept them at face value.",
+      "My advantage is the combination of technical curiosity and the audit judgment needed to evaluate outputs rather than accept them at face value.",
     source: "PCAOB staff spotlight",
     href: "https://pcaobus.org/news-events/news-releases/news-release-detail/pcaob-staff-shares-observations-from-outreach-on-use-of-generative-artificial-intelligence-in-audits-and-financial-reporting",
   },
@@ -73,8 +73,8 @@ export default function Home() {
           </h1>
           <p className="hero-lead">
             I combine 7+ years of audit, tax, and financial reporting
-            experience with business analytics to make complex evidence
-            clearer, more reviewable, and more useful for decisions.
+            experience with business analytics training. The goal: evidence
+            that&apos;s not just accurate, but reviewable and decision-ready.
           </p>
           <div className="button-row">
             <a className="button button-primary" href="#work">
@@ -401,8 +401,13 @@ export default function Home() {
           </div>
           <div className="contact-copy">
             <p>
-              I am interested in audit analytics, risk analytics, internal audit
-              analytics, and adjacent financial analytics opportunities.
+              I&apos;m looking for roles where audit judgment and financial
+              reporting experience inform data-driven risk work — internal
+              audit analytics, assurance technology, or risk advisory teams
+              building analytics capability.{" "}
+              {/* TODO(Christine): confirm and add — e.g. "Based in
+              Winston-Salem, NC · open to relocation · available from May
+              2027." */}
             </p>
             <div className="contact-links">
               <a href="mailto:christineliu0221.usa@gmail.com">

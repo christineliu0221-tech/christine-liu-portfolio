@@ -19,6 +19,7 @@ export default function PricingAnalyticsPage() {
         { label: "Model inputs", value: "8 variables" },
       ]}
       context="Professional service pricing often blends experience, expected effort, client characteristics, and judgment. The project explored whether historical engagement data could supplement that judgment with a repeatable analytical reference point."
+      contributionHeading="An exploratory prototype I scoped end to end"
       contribution="I prototyped a pricing analysis workflow in Python with AI assistance, structured eight explanatory variables, applied multiple linear regression, and evaluated model fit. The project was exploratory rather than a production pricing system."
       approach={[
         "Translated the business question into a defined target and a set of eight potential explanatory variables.",
@@ -29,9 +30,10 @@ export default function PricingAnalyticsPage() {
       outcome="Demonstrated how a familiar professional-services decision could be reframed as a testable analytical question, while making the limits of a prototype explicit."
       relevance="Strong analytics work is not defined by the most complex model. It is defined by whether the method fits the question, the result can be explained, and decision-makers understand the limitations. This project shows business framing, technical growth, and responsible interpretation."
       nextProject={{
-        label: "Return to selected work",
+        label: "Selected work",
         href: "/#work",
       }}
+      nextLabel="Back to selected work"
     />
   );
 }
