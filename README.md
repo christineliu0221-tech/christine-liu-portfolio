@@ -18,7 +18,7 @@ Create a production build with `npm run build`.
 - Audit and analytics expertise
 - Three detailed project case studies
 - Commercial-awareness research
-- Viewable and downloadable PDF resume
+- On-page experience overview with résumé available upon request
 - Contact information
 
 The layout is responsive and designed for both laptop and mobile review.

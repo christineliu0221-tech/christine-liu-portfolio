@@ -82,10 +82,9 @@ export default function Home() {
             </a>
             <a
               className="button button-secondary"
-              href="/Christine-Liu-Resume.pdf"
-              download
+              href="mailto:christineliu0221.usa@gmail.com?subject=R%C3%A9sum%C3%A9%20request"
             >
-              Download résumé
+              Request résumé
             </a>
           </div>
           <dl className="hero-credentials" aria-label="Professional credentials">
@@ -344,18 +343,9 @@ export default function Home() {
             <div className="button-row">
               <a
                 className="button button-light"
-                href="/Christine-Liu-Resume.pdf"
-                target="_blank"
-                rel="noreferrer"
+                href="mailto:christineliu0221.usa@gmail.com?subject=R%C3%A9sum%C3%A9%20request"
               >
-                View résumé
-              </a>
-              <a
-                className="text-link-light"
-                href="/Christine-Liu-Resume.pdf"
-                download
-              >
-                Download PDF <span aria-hidden="true">↓</span>
+                Résumé available upon request
               </a>
             </div>
           </div>
